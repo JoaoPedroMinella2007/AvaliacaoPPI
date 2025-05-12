@@ -5,17 +5,129 @@
 
     <style>
 
-        .Japao{
-            
+        .container{
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
         }
+
+
+        .Japao{
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 350px;
+            width: 450px;
+            border: 1px solid black;
+        }
+
+        #circuloBandeiraJapao{
+
+            background-color: red;
+            border-radius: 100%;
+            height: 150px;
+            width: 150px;
+
+        }
+
+        .Holanda{
+
+            display: flex;
+            justify-content: flex-end;
+            flex-direction: column;
+            height: 350px;
+            width: 450px;
+            border: 1px solid black;
+
+        }
+
+        #VermelhoCimaHolanda{
+
+            background-color: rgb(182, 18, 18);
+            width: 450px;
+            height: 150px;
+        }
+
+        #BrancoMeioHolanda{
+
+            background-color: white;
+            width: 450px;
+            height: 150px;
+        }
+
+        #AzulBaixoHolanda{
+            
+            background-color: blue;
+            width: 450px;
+            height: 150px;
+        }
+
+        .Italia{
+
+            display: flex;
+            justify-content: flex-end;
+            flex-direction: row;
+            height: 350px;
+            width: 450px;
+            border: 1px solid black;
+        }
+
+        #VerdeItalia{
+
+            background-color: green;
+            width: 450px;
+            height: 350px;
+        }
+
+        #BrancoItalia{
+
+            background-color: white;
+            width: 450px;
+            height: 350px;
+        }
+
+        #VermelhoItalia{
+
+            background-color: red;
+            width: 450px;
+            height: 350px;
+        }
+
 
     </style>
 </head>
 <body>
 
-<div class="Japao">
+<div class="container">
 
+    <div class="Japao">
 
+    <div id="circuloBandeiraJapao"></div>
+
+    </div>
+
+    <br>
+
+    <div class="Holanda">
+
+        <div id="VermelhoCimaHolanda"></div>
+        <div id="BrancoMeioHolanda"></div>
+        <div id="AzulBaixoHolanda"></div>
+
+    </div>
+
+    <br>
+
+    <div class="Italia">
+
+        <div id="VerdeItalia"></div>
+        <div id="BrancoItalia"></div>
+        <div id="VermelhoItalia"></div>
+
+    </div>
 
 </div>
     
